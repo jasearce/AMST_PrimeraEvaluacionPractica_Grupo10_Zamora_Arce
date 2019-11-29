@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AMST_PrimeraEvaluacionPractica_Grupo10_Zamora_Arce</string>
+    <string name="nombre_app">Trivia Magica</string>
+    <string name="btnEmpezar">Empezar</string>
+    <string name="txt_autores">Desarrollado por Luis Zamora, Javier Arce</string>
+
 </resources>
