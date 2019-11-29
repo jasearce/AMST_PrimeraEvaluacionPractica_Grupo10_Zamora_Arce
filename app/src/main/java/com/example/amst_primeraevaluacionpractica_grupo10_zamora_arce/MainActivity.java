@@ -20,10 +20,16 @@ public class MainActivity extends AppCompatActivity {
         btnEmp = (Button)findViewById(R.id.btn_empezar);
         nameApp = (TextView) findViewById(R.id.txt_app);
         autores = (TextView)findViewById(R.id.txt_autores);
+        /*btnEmp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });*/
     }
 
     public void pasarAPreguntas(View view){
-        Intent intent = new Intent(this, Preguntas.class);
+        Intent intent = new Intent(MainActivity.this, Preguntas.class);
         startActivity(intent);
     }
 }
